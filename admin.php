@@ -92,7 +92,7 @@ $data = getCVData();
               <label for="pengalamanKerja" class="form-label">Pengalaman Kerja</label>
               <textarea class="form-control" id="pengalamanKerja" name="pengalaman_kerja" rows="3" placeholder="Pengalaman Kerja" required><?php echo $data['pengalaman_kerja']; ?></textarea>
               <label for="keterampilan" class="form-label">Keterampilan</label>
-              <textarea class="form-control" id="keterampilan" name="keterampilan" rows="3" placeholder="Keterampilan" required><?php echo $data['pendidikan']; ?></textarea>
+              <textarea class="form-control" id="keterampilan" name="keterampilan" rows="3" placeholder="Keterampilan" required><?php echo $data['keterampilan']; ?></textarea>
               <label for="formFile" class="form-label">Foto Path</label>
               <input class="form-control" type="text" id="formFile" name="foto_path" value="<?php echo $data['foto_path']; ?>" required>
             </div>

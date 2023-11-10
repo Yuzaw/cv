@@ -1,8 +1,8 @@
 <?php
 $host = 'localhost';
 $db = 'cv';
-$user = 'if22';
-$pwd = 'if1234';
+$user = 'root';
+$pwd = '';
 
 $conn = mysqli_connect($host, $user, $pwd, $db); // true | false
 
