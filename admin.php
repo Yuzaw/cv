@@ -61,6 +61,33 @@ $data = getCVData();
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="main.css">
+  <style>
+    body {
+      background-color: #495057;
+      color: #fff;
+    }
+
+    .navbar {
+      background-color: #007bff;
+    }
+
+    .card {
+      margin: 20px;
+      background-color: #212529;
+      color: #fff;
+      border-radius: 10px;
+    }
+
+    #comments {
+      margin-top: 20px;
+    }
+
+    .comment {
+      border: 1px solid #007bff;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+  </style>
   <title>Update CV</title>
 </head>
 
@@ -69,7 +96,7 @@ $data = getCVData();
     <nav class="navbar sticky-top bg-body-tertiary biru">
       <div class="container-fluid">
         <h1>Update CV</h1>
-        <a class="navbar-brand" href="/cv">View</a>
+        <a class="navbar-brand text-white" href="/cv">View</a>
       </div>
     </nav>
     <div class="card">
